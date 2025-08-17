@@ -6,7 +6,7 @@ export default defineConfig({
   manifest: {
     name: '书签侧边栏',
     description: '现代化的浏览器书签管理侧边栏',
-    version: '1.0.0',
+    version: '2.0.0',
     permissions: [
       'bookmarks',
       'storage',

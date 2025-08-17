@@ -1,6 +1,14 @@
-# 书签侧边栏
+# 🔖 书签侧边栏
 
 基于 Vue 3 开发的现代化浏览器书签管理扩展，提供侧边栏式的直观操作体验。
+
+[![Edge Add-on](https://img.shields.io/badge/Edge%20Add--on-可用-green?style=flat-square&logo=microsoftedge)](https://microsoftedge.microsoft.com/addons/detail/%E4%B9%A6%E7%AD%BE%E4%BE%A7%E8%BE%B9%E6%A0%8F/cibhcgolgfdmgagiibmkenfihaojfkld)
+[![Vue 3](https://img.shields.io/badge/Vue%203-最新-blue?style=flat-square&logo=vuedotjs)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-支持-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![WXT](https://img.shields.io/badge/WXT-框架-purple?style=flat-square)](https://wxt.dev/)
+[![Version](https://img.shields.io/badge/version-2.0.0-orange?style=flat-square)](https://github.com/qgming/siderbookmarks)
+
+![书签侧边栏展示](show.png)
 
 ## 功能特性
 
@@ -11,6 +19,11 @@
 - 🎨 **简洁界面**：现代化设计，操作直观
 - ⚡ **快速响应**：优化的性能，大量书签也能流畅使用
 
+## 浏览器商店
+
+- **Edge**: [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/%E4%B9%A6%E7%AD%BE%E4%BE%A7%E8%BE%B9%E6%A0%8F/cibhcgolgfdmgagiibmkenfihaojfkld)
+- **Chrome**: [GitHub Releases](https://github.com/qgming/siderbookmarks/releases) 下载后开发者模式安装
+
 ## 快速开始
 
 ### 安装扩展
@@ -18,7 +31,7 @@
 1. 克隆项目并构建：
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/qgming/siderbookmarks.git
 cd siderbookmarks
 npm install
 npm run build
@@ -72,10 +85,6 @@ npm run build:firefox
 ├── public/              # 静态资源
 └── wxt.config.ts       # 扩展配置
 ```
-
-## 浏览器支持
-
-- Chrome / Edge
 
 ## 所需权限
 
